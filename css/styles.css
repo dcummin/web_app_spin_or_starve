@@ -125,7 +125,9 @@ input[type=text]{
   padding: 1em;
   margin:0 auto;
   text-align: center;
+  cursor: pointer;
 }
+
 
 label{
   margin-left: .7em;
