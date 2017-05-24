@@ -1,0 +1,136 @@
+*{
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body{
+  background-color: #fff;
+}
+
+/*Navigation START*/
+
+.navbar{
+  max-width: 100%;
+  height: 63px;
+}
+
+.navbar--black{
+  background-color: #000;
+}
+
+.navbar__logo{
+  display: block;
+  width:230px;
+  float: left;
+  padding-top: .7em;
+  margin-left: 2em;
+}
+
+.navbar__menu{
+  float: right;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.navbar__menu__login, .navbar__menu__register{
+  color:#fff;
+  text-align: center;
+  display: inline-block;
+  padding-top: 1.5em;
+}
+
+.navbar__menu__login:hover, .navbar__menu__register:hover{
+  background-color: #3D3A3A;
+  color: #FBB041;
+  height: 40px;
+}
+
+.navbar__menu__login, .navbar__menu__register, .navbar__menu__login:hover, .navbar__menu__register:hover{
+  width: 100px;
+}
+
+/*Navigation END*/
+
+/*Header START*/
+.headline-container{
+  background: url(../assets/HeadlineBackground.jpg) no-repeat;
+  background-color: #000;
+  background-size: cover;
+  height: 380px;
+  padding-top:2em;
+  padding-left:2em;
+}
+
+.headline-container__headline{
+  font-size: 4em;
+  font-weight: 300;
+}
+
+.headline-container__deckcopy{
+  font-size: 1.2em;
+  font-weight: 300;
+  margin-top: .5em;
+  line-height: 30px;
+}
+
+.headline-container__headline, .headline-container__deckcopy{
+  color: white;
+  max-width: 700px;
+}
+
+/*Header END*/
+
+/*Main START*/
+
+.main-container{
+  height:900px;
+}
+
+.main-container__sectiontitle{
+  text-align: center;
+  margin-top: 2em;
+  font-size: 2em;
+}
+
+label{
+  text-align: center;
+}
+
+label, input{
+  font-size:18px;
+}
+
+input[type=text]{
+  display:block;
+  margin: 2em auto;
+  padding:10px 10px 10px 5px;
+  width:372px;
+  border: none;
+  border-bottom:1px solid #757575;
+}
+
+.main-container__submit__btn-container{
+  width: 400px;
+  margin: 0 auto;
+  padding-left: 13em;
+}
+
+.main-container__submit__btn{
+  background-color: #FBB040;
+  color: #fff;
+  border-radius: 10px;
+  width: 150px;
+  padding: 1em;
+  margin:0 auto;
+  text-align: center;
+}
+
+label{
+  margin-left: .7em;
+  font-size: .8em;
+}
+
+
+/*Main END*/
